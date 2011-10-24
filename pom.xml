@@ -59,7 +59,7 @@
         <repository>
             <id>m2e</id>
             <layout>p2</layout>
-            <url>http://download.eclipse.org/technology/m2e/milestones/1.0</url>
+            <url>https://repository.sonatype.org/content/repositories/forge-sites/m2e/1.1.0/N/LATEST</url>
         </repository>
         <repository>
             <id>helios</id>
