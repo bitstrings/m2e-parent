@@ -21,8 +21,8 @@
     </parent>
 
     <groupId>org.bitstrings.eclipse.m2e</groupId>
-    <artifactId>parent</artifactId>
-    <version>2-SNAPSHOT</version>
+    <artifactId>m2e-parent</artifactId>
+    <version>2.0.0-SNAPSHOT</version>
 
     <name>m2e :: Parent</name>
 
@@ -62,9 +62,9 @@
             <url>https://repository.sonatype.org/content/repositories/forge-sites/m2e/1.1.0/N/LATEST</url>
         </repository>
         <repository>
-            <id>helios</id>
+            <id>indigo</id>
             <layout>p2</layout>
-            <url>http://download.eclipse.org/releases/helios</url>
+            <url>http://download.eclipse.org/releases/indigo</url>
         </repository>
     </repositories>
 
