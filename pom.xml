@@ -22,7 +22,7 @@
 
     <groupId>org.bitstrings.eclipse.m2e</groupId>
     <artifactId>m2e-parent</artifactId>
-    <version>4-SNAPSHOT</version>
+    <version>4</version>
 
     <name>m2e :: Parent</name>
 
@@ -53,7 +53,7 @@
         <connection>scm:git:https://github.com/bitstrings/m2e-parent.git</connection>
         <developerConnection>scm:git:https://github.com/bitstrings/m2e-parent.git</developerConnection>
         <url>https://github.com/bitstrings/m2e-parent.git</url>
-      <tag>HEAD</tag>
+        <tag>4</tag>
   </scm>
 
     <repositories>
