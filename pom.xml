@@ -24,7 +24,7 @@
 
     <groupId>org.bitstrings.eclipse.m2e</groupId>
     <artifactId>m2e-parent</artifactId>
-    <version>5</version>
+    <version>6-SNAPSHOT</version>
 
     <name>m2e :: Parent</name>
 
@@ -61,19 +61,19 @@
         <repository>
             <id>m2e</id>
             <layout>p2</layout>
-            <url>http://download.eclipse.org/technology/m2e/releases/1.5</url>
+            <url>http://download.eclipse.org/technology/m2e/releases/1.6</url>
         </repository>
         <repository>
-            <id>indigo</id>
+            <id>eclipse</id>
             <layout>p2</layout>
-            <url>http://download.eclipse.org/releases/luna</url>
+            <url>http://download.eclipse.org/releases/mars</url>
         </repository>
     </repositories>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
-        <tycho.version>0.21.0</tycho.version>
+        <tycho.version>0.23.1</tycho.version>
     </properties>
 
     <build>
@@ -84,8 +84,8 @@
                     <artifactId>tycho-compiler-plugin</artifactId>
                     <version>${tycho.version}</version>
                     <configuration>
-                        <source>1.5</source>
-                        <target>1.5</target>
+                        <source>1.7</source>
+                        <target>1.7</target>
                     </configuration>
                 </plugin>
                 <plugin>
