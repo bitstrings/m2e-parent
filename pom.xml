@@ -24,7 +24,7 @@
 
     <groupId>org.bitstrings.eclipse.m2e</groupId>
     <artifactId>m2e-parent</artifactId>
-    <version>6-SNAPSHOT</version>
+    <version>6</version>
 
     <name>m2e :: Parent</name>
 
